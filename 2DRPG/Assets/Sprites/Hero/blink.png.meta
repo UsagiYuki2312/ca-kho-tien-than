@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: blink_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e2ad935a2d46a4880c184a46a7f507
+      internalID: 323616615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_1
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 3456
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f0607b46646674386b56ae8e9ff8d5
+      internalID: 414735648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_2
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 3456
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e179e58e7e8dd924088774f82bf4624e
+      internalID: -300596933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_3
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 3456
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece0be2ba407242409b2dd6153c3ca11
+      internalID: 177315545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_4
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 3456
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdc0c2127bc3dd47a15bf92591b9885
+      internalID: 961865557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_5
+      rect:
+        serializedVersion: 2
+        x: 6630
+        y: 3456
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2dbc88e13295c48b7d4a3f0ce5bd5c
+      internalID: 1916212440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cc920156e18b747a9073e1f5f6bd5d
+      internalID: -59774322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_7
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2304
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f586ca27816e0ee49959138b5608a039
+      internalID: -316111941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_8
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 2304
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616002dc775e39945872a87766316871
+      internalID: -1206185098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_9
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 2304
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f75596207c3aa4cb85a9ec265b371b
+      internalID: 696922602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_10
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 2304
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deddf41003f3ecb43a4b63e369348394
+      internalID: 2043741720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_11
+      rect:
+        serializedVersion: 2
+        x: 6630
+        y: 2304
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0550c5894df590448a4a8082855948dd
+      internalID: 298427124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d38151d6e53afe4f8d1655322f35f6d
+      internalID: -2133267370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_13
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1152
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1560c42e1647e14e9dc4c1a1c06afb8
+      internalID: -165223633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_14
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 1152
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f534cc82e2afc894c8ca940ad671dd50
+      internalID: -1534911556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_15
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 1152
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9bd571bd828b847b9b5ac415b7aa8c
+      internalID: -910665727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_16
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 1152
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ffa82f793a0f74eba50a96182d95db
+      internalID: -1660110112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_17
+      rect:
+        serializedVersion: 2
+        x: 6630
+        y: 1152
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bf50dc869234445b0f7b81c4660d6f
+      internalID: -1291746995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4df13ce506e9a4d8c506c37ffe533f
+      internalID: 876089250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_19
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 0
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473cbb926e426074caf45ddd7adb91ae
+      internalID: 1268905369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_20
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 0
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e845f3006df9eec48a3299a596db7e1e
+      internalID: 193118785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_21
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 0
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df592c2caf10fdc4db3cc7cad4a43785
+      internalID: 629998207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_22
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 0
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271a3a57a626084ba41ec848d2313a2
+      internalID: 1837609714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_23
+      rect:
+        serializedVersion: 2
+        x: 6630
+        y: 0
+        width: 1326
+        height: 1152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cff0829ebed4b4880843ade03967d7
+      internalID: -802666162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +623,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blink_0: 323616615
+      blink_1: 414735648
+      blink_10: 2043741720
+      blink_11: 298427124
+      blink_12: -2133267370
+      blink_13: -165223633
+      blink_14: -1534911556
+      blink_15: -910665727
+      blink_16: -1660110112
+      blink_17: -1291746995
+      blink_18: 876089250
+      blink_19: 1268905369
+      blink_2: -300596933
+      blink_20: 193118785
+      blink_21: 629998207
+      blink_22: 1837609714
+      blink_23: -802666162
+      blink_3: 177315545
+      blink_4: 961865557
+      blink_5: 1916212440
+      blink_6: -59774322
+      blink_7: -316111941
+      blink_8: -1206185098
+      blink_9: 696922602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
