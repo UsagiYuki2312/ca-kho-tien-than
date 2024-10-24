@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ceaeee528fc761468f9f371b11a6e69
-      internalID: 1804373234
+      spriteID: 217349970be43eb48abbadcd8d27c18f
+      internalID: -767814870
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd6413f906e5a1742ab4bceb5083c369
-      internalID: -2091184872
+      spriteID: 0a397f164bee8bc4c82a5848757d5013
+      internalID: 1838107455
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4967a2ebde200c743a9da09dd58b3b06
-      internalID: 2067639459
+      spriteID: 21193a6433508c548b96d284e3783118
+      internalID: 958699943
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2935ba89c7aecf64f8c0b50b75e1bc38
-      internalID: 1003245450
+      spriteID: 1174aab568a9b604a8bf145b38a8e37e
+      internalID: 949158674
       vertices: []
       indices: 
       edges: []
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9cbc1c9e89a1a34fbfedeedd72f22e7
-      internalID: -2095954538
+      spriteID: 3e359c4ba7ee9914caf170f6764eecf6
+      internalID: 538656278
       vertices: []
       indices: 
       edges: []
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c77437d1e5c8b64d8733e17029d7b66
-      internalID: 358545683
+      spriteID: 67b58b8d01702fb4ea4bdf56003bc2ad
+      internalID: 25113432
       vertices: []
       indices: 
       edges: []
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588aedd359e0f8646954eebb3d94f6dd
-      internalID: 1521125881
+      spriteID: ffceccc37abb5cb4499ec2a57e2fbbb7
+      internalID: -1035573257
       vertices: []
       indices: 
       edges: []
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5778c56e3e2ae4d46b39ec9da01f9b35
-      internalID: 2117187878
+      spriteID: 463ec49f9ec6a96478b4a21a9eda9d0b
+      internalID: -837311313
       vertices: []
       indices: 
       edges: []
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a04cd4baceec12742a9094debc07579b
-      internalID: -390638993
+      spriteID: 50cf1c8c0eff0d740a420d0271f63c3a
+      internalID: -650688834
       vertices: []
       indices: 
       edges: []
@@ -313,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b072da2aeeb7ed449986b76ee16061d3
-      internalID: 1790832890
+      spriteID: b87027661d2be264c94bed0f0e37852d
+      internalID: -1803640974
       vertices: []
       indices: 
       edges: []
@@ -334,8 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a7d52474da71064d9d0fad8bac11691
-      internalID: -369809066
+      spriteID: 484bf6a2453f6fa438d1f590a1c9f311
+      internalID: 1408626461
       vertices: []
       indices: 
       edges: []
@@ -355,8 +355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e75aea0a450eb0a4f91d086cc8b847db
-      internalID: -114918627
+      spriteID: 2e48fb606ec4b8d47b127d1fce97abf8
+      internalID: 1114264307
       vertices: []
       indices: 
       edges: []
@@ -372,18 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dash_0: 1804373234
-      Dash_1: -2091184872
-      Dash_10: -369809066
-      Dash_11: -114918627
-      Dash_2: 2067639459
-      Dash_3: 1003245450
-      Dash_4: -2095954538
-      Dash_5: 358545683
-      Dash_6: 1521125881
-      Dash_7: 2117187878
-      Dash_8: -390638993
-      Dash_9: 1790832890
+      Dash_0: -767814870
+      Dash_1: 1838107455
+      Dash_10: 1408626461
+      Dash_11: 1114264307
+      Dash_2: 958699943
+      Dash_3: 949158674
+      Dash_4: 538656278
+      Dash_5: 25113432
+      Dash_6: -1035573257
+      Dash_7: -837311313
+      Dash_8: -650688834
+      Dash_9: -1803640974
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
