@@ -102,7 +102,7 @@ Transform:
   m_GameObject: {fileID: 1673177205234049252}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.08, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.24, y: 0.24, z: 0.24}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -455,7 +455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.57}
+  m_AnchoredPosition: {x: 0, y: 1.38}
   m_SizeDelta: {x: 3.5, y: 1.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7408372561562249871
@@ -545,9 +545,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8971826410083886167}
   - component: {fileID: 5814812045841280801}
-  - component: {fileID: 3621174243272442570}
   - component: {fileID: 1880722132006465429}
   - component: {fileID: 3672402938952081794}
+  - component: {fileID: 630771743244736596}
   m_Layer: 0
   m_Name: Snail
   m_TagString: Enemy
@@ -570,6 +570,7 @@ Transform:
   m_Children:
   - {fileID: 8242747851763989056}
   - {fileID: 1975467048054133995}
+  - {fileID: 450450623839601734}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &5814812045841280801
@@ -617,44 +618,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.38}
   m_EdgeRadius: 0
---- !u!114 &3621174243272442570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7309140781842360279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dd47910ad560eb43bd59a786c4e5d08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  followTarget: {fileID: 0}
-  approachDistance: 1.8
-  detectRange: 5.5
-  lostSight: 40
-  speed: 5
-  gravity: 2
-  attackAnimationTrigger:
-  - attack1
-  attackPrefab: {fileID: 114970523288256178, guid: cb53edc85cc19ba4ebf51904687710c9, type: 3}
-  attackPoint: {fileID: 0}
-  attackCast: 0.3
-  attackDelay: 0.5
-  followState: 2
-  cancelAttack: 0
-  attackVoice: {fileID: 8300000, guid: 2f4799e6c7eb97b488b6d7d3c3fc2693, type: 3}
-  hurtVoice: {fileID: 0}
-  whileAttack: 1
-  aimAtTarget: 1
-  facingRight: 1
-  patrolSetting:
-    enable: 1
-    patrolSpeed: 2
-    idleDuration: 1.5
-    moveDuration: 0.5
-  skill: []
-  skillDistance: 5.5
 --- !u!114 &1880722132006465429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,3 +761,188 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &630771743244736596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309140781842360279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd335492a6b110418f8954a34e08aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followTarget: {fileID: 0}
+  approachDistance: 2
+  detectRange: 7
+  lostSight: 40
+  speed: 4
+  gravity: 2
+  attackAnimationTrigger:
+  - attack1
+  attackPrefab: {fileID: 0}
+  attackPoint: {fileID: 0}
+  attackCast: 0.3
+  attackDelay: 1
+  followState: 2
+  cancelAttack: 0
+  attackVoice: {fileID: 8300000, guid: 2f4799e6c7eb97b488b6d7d3c3fc2693, type: 3}
+  hurtVoice: {fileID: 0}
+  whileAttack: 1
+  aimAtTarget: 1
+  facingRight: 1
+  patrolSetting:
+    enable: 1
+    patrolSpeed: 2
+    idleDuration: 1.5
+    moveDuration: 0.5
+  skill: []
+  skillDistance: 5.5
+  Damage: {fileID: 4315937107834879394}
+--- !u!1001 &3669838447113245041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8971826410083886167}
+    m_Modifications:
+    - target: {fileID: 650958649957362899, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_Name
+      value: ButtleSnail
+      objectReference: {fileID: 0}
+    - target: {fileID: 650958649957362899, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1957335039210217382, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: penetrate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705551259310097297, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1957335039210217382, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+    - {fileID: 3175799147995753703, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 650958649957362899, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7311036985662779571}
+    - targetCorrespondingSourceObject: {fileID: 650958649957362899, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6880881841283924869}
+  m_SourcePrefab: {fileID: 100100000, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+--- !u!4 &450450623839601734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3795884584601752887, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+  m_PrefabInstance: {fileID: 3669838447113245041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4315937107834879394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 650958649957362899, guid: da43537a03e8ca046ac00b4681ecd797, type: 3}
+  m_PrefabInstance: {fileID: 3669838447113245041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7311036985662779571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315937107834879394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d623a22cc3e51e46af4fd91ea480b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  damageMax: 20
+  playerAttack: 5
+  totalDamage: 0
+  variance: 15
+  criticalChance: 5
+  inflictStatus: []
+  shooterTag: Player
+  shooter: {fileID: 0}
+  Popup: {fileID: 4039106846122228, guid: 11e556cf827bc7d4bbdc76f0e2ba1752, type: 3}
+  hitEffect: {fileID: 0}
+  effectAtTarget: 0
+  flinch: 0
+  knockBackForces: 4
+  penetrate: 1
+  oneHitPerEnemy: 0
+  AttackType: 0
+  element: 0
+  drainHp: 0
+  bombHitSetting:
+    enable: 0
+    bombEffect: {fileID: 0}
+    bombRadius: 20
+  spawnChildWhenHit:
+    enable: 0
+    prefab: {fileID: 0}
+    maximumSpawn: 1
+  fwdPlusAfterSpawn: 0
+  snail: {fileID: 7309140781842360279}
+--- !u!114 &6880881841283924869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315937107834879394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a54caa03a8bef4e857d49bd97666f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  relativeDirection: {x: 1, y: 0, z: 0}
+  duration: 2
+  shooterTag: Player
+  hitEffect: {fileID: 0}
+  passthroughWall: 0

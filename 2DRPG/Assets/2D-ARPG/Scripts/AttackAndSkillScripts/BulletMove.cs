@@ -13,9 +13,9 @@ public class BulletMove : MonoBehaviour {
 	public string shooterTag = "Player";
 	public GameObject hitEffect;
 	public bool passthroughWall = false;
-	//public float fwdPlusAfterSpawn = 0;
-	
-	void Start(){
+    //public float fwdPlusAfterSpawn = 0;
+
+    protected virtual  void Start(){
 		hitEffect = GetComponent<BulletStatus>().hitEffect;
 		GetComponent<Rigidbody2D>().gravityScale = 0;
 		if(GetComponent<Collider2D>()){
@@ -36,7 +36,7 @@ public class BulletMove : MonoBehaviour {
 		GetComponent<Rigidbody2D>().velocity = dir * speed;
 	}
 	
-	void OnTriggerEnter2D(Collider2D other){
+	protected virtual void OnTriggerEnter2D(Collider2D other){
 		if(other.gameObject.tag == "Wall" && !passthroughWall){
 			if(hitEffect){
 				Instantiate(hitEffect, transform.position , transform.rotation);

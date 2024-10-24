@@ -214,13 +214,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followTarget: {fileID: 0}
   approachDistance: 1.8
-  detectRange: 5.5
+  detectRange: 6
   lostSight: 40
   speed: 5
   gravity: 0
   attackAnimationTrigger:
   - attack1
-  attackPrefab: {fileID: 114970523288256178, guid: cb53edc85cc19ba4ebf51904687710c9, type: 3}
+  attackPrefab: {fileID: 114970523288256178, guid: 75465334129201945baec5c295acf767, type: 3}
   attackPoint: {fileID: 0}
   attackCast: 0.3
   attackDelay: 0.5
