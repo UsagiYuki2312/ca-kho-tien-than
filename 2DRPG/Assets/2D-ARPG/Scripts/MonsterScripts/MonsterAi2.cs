@@ -40,14 +40,14 @@ public class MonsterAi2 : MonsterAi
                 }
                 Damage.GetComponent<BulletStatus>().Setting(stat.atk, stat.matk, "Enemy", this.gameObject);
                 Vector3 dir = (followTarget.position - attackPoint.position).normalized;
-               // GetComponent<Rigidbody2D>().velocity = new Vector2(dir.x, 0) * movSpd * 2;
+                GetComponent<Rigidbody2D>().velocity = new Vector2(dir.x, 0) * movSpd * 2;
                 c++;
                 if (c >= attackAnimationTrigger.Length)
                 {
                     c = 0;
                 }
                 yield return new WaitForSeconds(attackDelay);
-               // GetComponent<Rigidbody2D>().AddForce(Vector2.zero);
+                GetComponent<Rigidbody2D>().AddForce(Vector2.zero);
                 attacking = false;
                 CheckDistance();
                 /*if(distance > approachDistance + 0.55f){
